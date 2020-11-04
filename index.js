@@ -56,14 +56,16 @@ function promptUser() {
 
 function generateHTML(answers) {
   return `
-  # GitHub User Name:
+  ![GitHub Logo](ReadMe_Logo.jpg)
+
+  # Project Name:
+  * ${answers.project}
+
+  ## GitHub User Name: 
   * ${answers.github}
   
   ## Email Address:
   * ${answers.email}
-  
-  ## Project Name:
-  * ${answers.project}
   
   ## Description of the project:
   * ${answers.description}
@@ -80,13 +82,13 @@ function generateHTML(answers) {
   ## What you should know about using the repo:
   * ${answers.using}
   
-  ## What you should know about contributing to the repo:
+  ## How to Contribute:
   * ${answers.contributing}`
 ;
 }
 
 async function init() {
-  console.log("hi")
+  console.log("hello")
   try {
     const answers = await promptUser();
 
