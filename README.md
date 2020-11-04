@@ -1,6 +1,6 @@
 
   ![GitHub Logo](ReadMe_Logo.jpg)
-![GitHub Logo](README_Generator.mp4)
+
 
   # Project Name:
   * README Generator
